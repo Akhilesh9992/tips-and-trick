@@ -1,0 +1,204 @@
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+mydiv{
+    background-color: white;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+a {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+div.fixed {
+    position: inherit;
+    top: 0;
+	height: 50px;
+    width: 100%;
+	background-color:#089dfb;
+    text-align:center;
+}
+
+div.space {
+margin-top: 60px;
+    
+}
+
+div.relative {
+    position: absolute;
+	top: 60px;
+	left: 160px;
+    
+    
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+
+
+
+
+
+.fbimg {
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+	margin-top: 60px;
+}
+
+
+body {
+   background-image: url(../img/BG11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h2 {
+    font-size:18px;
+	font-family: "Verdana", Lucida, Georgia;
+    font-weight:bold;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin:15%;
+    overflow:visible;
+    padding:10px;
+    text-align:center;
+}
+
+li{
+	
+	font-size:14px;
+	font-family: "Verdana", Lucida, Georgia;
+	
+}
+
+p {
+    
+	font-family: "Verdana", Lucida, Georgia;
+   
+   
+}
+
+
+
+div.polaroid {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.container {
+  padding: 10px;
+}
+
+
+
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
